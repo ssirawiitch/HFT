@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hft-backtest-library"
+version = "0.1.0"
+description = "Local sampled-quote backtests, performance metrics and plots"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.1", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+polars = ["polars>=1.30"]
+
+[tool.setuptools]
+packages = ["Backtest_Library"]
+package-dir = {"Backtest_Library" = "."}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
