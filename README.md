@@ -1,0 +1,1 @@
+This project is for me to understand more about High-Frequency Trading (HFT) and Market Microstructure
