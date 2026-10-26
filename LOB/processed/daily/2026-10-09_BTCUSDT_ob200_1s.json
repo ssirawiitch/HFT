@@ -1,0 +1,21 @@
+{
+  "fingerprint": {
+    "cache_format": 1,
+    "source_path": "/mnt/c/Personal_projects/HFT/Data/2026-10-09_BTCUSDT_ob200.data",
+    "source_size": 1095493168,
+    "source_mtime_ns": 1793006830092074000,
+    "interval_ms": 1000,
+    "max_age_ms": 2000,
+    "reconstruction": "520bad61f861d5791e66935eec2d8db235ca9bb6d8633334b284ac1d7efa1477"
+  },
+  "stats": {
+    "messages": 862621,
+    "snapshots": 2,
+    "deltas": 862619,
+    "stale_samples_skipped": 0,
+    "invalid_samples_skipped": 0,
+    "max_message_gap_ms": 401,
+    "outside_day_samples_dropped": 1,
+    "sample_rows": 86399
+  }
+}
